@@ -19,7 +19,7 @@ public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idCliente;
+    private long idCliente;
     private String nombre;
     private String apellido;
     private String direccion;
