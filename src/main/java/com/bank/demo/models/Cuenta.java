@@ -19,8 +19,8 @@ public class Cuenta {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idCuenta;
-    private int idCliente;
+    private long idCuenta;
+    private long idCliente;
     private String nombre;
     private double efectivo;
     private String divisa;

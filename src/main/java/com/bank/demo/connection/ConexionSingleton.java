@@ -25,6 +25,7 @@ public class ConexionSingleton {
         try{
             Class.forName(this.jdbcDriver);
             conexion = DriverManager.getConnection(this.urlBaseDatos, this.usuario, this.password);
+            conexion.setAutoCommit(false); // seguiremos el modelo Transaction. O se hacen todas las operaciones o ninguna.
         }
         catch(ClassNotFoundException | SQLException e){
             e.printStackTrace();
