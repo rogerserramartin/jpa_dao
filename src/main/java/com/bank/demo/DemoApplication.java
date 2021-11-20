@@ -1,7 +1,5 @@
 package com.bank.demo;
 
-import ch.qos.logback.core.net.server.Client;
-import com.bank.demo.models.Cliente;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,6 +1,6 @@
 package com.bank.demo.repositories;
 
-import com.bank.demo.models.Cliente;
+import com.bank.demo.entities.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

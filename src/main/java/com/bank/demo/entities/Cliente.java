@@ -1,4 +1,4 @@
-package com.bank.demo.models;
+package com.bank.demo.entities;
 
 
 import lombok.Getter;
@@ -12,18 +12,20 @@ import javax.persistence.GenerationType;
 import javax.persistence.Table;
 import java.sql.Date;
 
-@Entity  //Indica a JPA que la clase es una entidad
+@Entity(name = "cliente")  //Indica a JPA que la clase es una entidad
+// el name es por si la entidad no tiene el mismo nombre que la tabla. Ejemplo: no llamar a una entidad par_dis_aba
 @Table   //Indica a JPA que tabla debe de mapear una entidad
 @Getter @Setter @NoArgsConstructor // LOMBOK
-public class Cuenta {
+public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long idCuenta;
     private long idCliente;
     private String nombre;
-    private double efectivo;
-    private String divisa;
-    private Date fechaAlta;
+    private String apellido;
+    private String direccion;
+    private String email;
+    private String telefono;
+    private Date fechaNacimiento;
 
 }

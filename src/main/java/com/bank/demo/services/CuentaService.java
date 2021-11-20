@@ -1,6 +1,6 @@
 package com.bank.demo.services;
 
-import com.bank.demo.models.Cuenta;
+import com.bank.demo.entities.Cuenta;
 import com.bank.demo.repositories.CuentaRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
