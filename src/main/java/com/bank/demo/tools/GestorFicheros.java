@@ -74,7 +74,7 @@ public class GestorFicheros {
     private void instanciarCuenta(String lineaActual) {
 
         Cuenta cuenta = new Cuenta();
-        // LEER FICHERO Y HACER LOS SETTERS;       
+        // LEER FICHERO Y HACER LOS SETTERS;
         this.cuentas.add(cuenta);
     }
 

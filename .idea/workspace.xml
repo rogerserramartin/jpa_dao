@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1bc77e-9c8a-40fe-bdc8-b29322a52089" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/demo/tools/GestorFicheros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/demo/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/demo/configuration/ClienteConfigurador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/demo/configuration/CuentaConfigurador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/demo/tools/GestorFicheros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/demo/tools/GestorFicheros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bank/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bank/demo/DemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +53,62 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.DemoApplicationTests.buscarClienteNombre">
+    <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.demo.DemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.addClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="addClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.buscarClienteNombre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="buscarClienteNombre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoApplicationTests.buscarClienteNombre" />
+        <item itemvalue="JUnit.DemoApplicationTests.addClient" />
+        <item itemvalue="JUnit.DemoApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

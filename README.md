@@ -9,6 +9,7 @@
 </ol>
 
 ##Scripts mysql
+CREATE DATABASE test;
 ###Cliente
 CREATE TABLE cliente (
 id_cliente INT NOT NULL, 
